@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Anton&family=Bebas+Neue&family=Caveat:wght@400;700&family=Comforter+Brush&family=Edu+QLD+Beginner:wght@400;500&family=Lobster&family=Noto+Serif:ital@1&family=Playfair+Display&family=Raleway:ital,wght@1,900&family=Roboto:wght@500&family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Anton&family=Bebas+Neue&family=Caveat:wght@400;700&family=Comforter+Brush&family=Dancing+Script:wght@700&family=Edu+QLD+Beginner:wght@400;500&family=Lobster&family=Noto+Serif:ital@1&family=Playfair+Display&family=Raleway:ital,wght@1,900&family=Roboto:wght@500&family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Anton&family=Bebas+Neue&family=Caveat:wght@400;700&family=Comforter+Brush&family=Dancing+Script:wght@700&family=Edu+QLD+Beginner:wght@400;500&family=Lobster&family=Noto+Serif:ital@1&family=Playfair+Display&family=Raleway:ital,wght@1,900&family=Roboto:wght@500&family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Anton&family=Bebas+Neue&family=Caveat:wght@400;700&family=Comforter+Brush&family=Dancing+Script:wght@700&family=Edu+QLD+Beginner:wght@400;500&family=Lobster&family=Noto+Serif:ital@1&family=Playfair+Display&family=Raleway:ital,wght@1,900&family=Roboto:wght@500&family=Rubik+Marker+Hatch&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Anton&family=Caveat:wght@400;700&family=Comforter+Brush&family=Dancing+Script:wght@700&family=Edu+QLD+Beginner:wght@400;500&family=Lobster&family=Noto+Serif:ital@1&family=Playfair+Display&family=Raleway:ital,wght@1,900&family=Roboto:wght@500&family=Rubik+Marker+Hatch&family=Rubik:wght@500&display=swap');
+
+.nav1{
+    margin-left: 841px;
+}
+.navbar { 
+    font-family: 'Bebas Neue', cursive;
+        font-size: 25px; 
+        color: #042b63;
+    font-weight: 600; 
+    line-height: 23px; 
+    text-decoration: none solid rgb(244, 136, 133); 
+    height: 75px; 
+   
+   
+   
+  } 
+   
+  .navbar-nav { 
+    height: 47px; 
+   
+   
+   
+  } 
+   
+  .nav-item { 
+    padding: 6px; 
+  }
+
+
+
+
+
+
+
+
+
+
+.bg-img {
+    height: 500px;
+    background-color: aqua;
+    background-image: url("./image/mount-mont-blanc-covered-snow-reflecting-water-evening-chamonix-france.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* object-fit: cover; */
+
+}
+
+.bg-img sub {
+    margin-top: 20px;
+}
+
+.heading {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    display: block;
+    color: rgb(243, 245, 246);
+    /* opacity: 0.8; */
+    padding-top: 240px;
+    opacity: 0.7;
+}
+
+.heading h1 {
+    font-size: 90px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.green {
+    width: 100%;
+    height: 110px;
+    background-color: #042b63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: WHITE;
+
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40PX;
+}
+
+.green input {
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.green button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.main {
+
+    width: 100%;
+    height: 1000px;
+    /* background-color: yellow; */
+}
+
+.destination {
+    width: 100%;
+    height: 120px;
+    /* background-color:#042b63; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* opacity: 0.6; */
+    border-style: inherit;
+}
+
+.destination h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 6px 6px 15px #042b63;
+}
+
+.dest1 {
+    width: 270px;
+    height: 300px;
+    background-color: rgb(146, 255, 127);
+}
+
+.dest2 {
+    width: 270px;
+    height: 300px;
+    background-color: rgb(255, 127, 176);
+}
+
+.dest3 {
+    width: 270px;
+    height: 300px;
+    background-color: rgb(142, 127, 255);
+}
+
+.dest4 {
+    width: 270px;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+.dest5 {
+    width: 270px;
+    height: 300px;
+    background-color: rgb(243, 110, 16);
+}
+
+.d1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dest1 {
+    background-image: url("./image/world-tourist-attractions-eiffel-tower-flowers-spring.jpg");
+    align-items: center;
+    /* object-fit: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgb(128, 128, 128);
+}
+
+.dest1:hover {
+    size: 30px;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.dest2 {
+    background-image: url("./image/top-attractions-in-the-world-italy-rome-colosseum.jpg");
+    align-items: center;
+    /* object-fit: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgb(128, 128, 128);
+}
+
+.dest2:hover {
+    size: 30px;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.dest3 {
+    background-image: url("./image/top-attractions-in-the-world-new-york-statue-of-liberty.jpg");
+    align-items: center;
+    /* object-fit: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgb(128, 128, 128);
+}
+
+.dest3:hover {
+    size: 30px;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.dest4 {
+    background-image: url("./image/top-attractions-in-the-world-peru-machu-picchu-overview.jpg");
+    align-items: center;
+    /* object-fit: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgb(128, 128, 128);
+}
+
+.dest4:hover {
+    size: 30px;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.dest5 {
+    background-image: url("./image/unnamed.gif");
+    align-items: center;
+    /* object-fit: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgb(128, 128, 128);
+}
+
+.dest5:hover {
+    size: 30px;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.name {
+    width: 100%;
+    height: auto;
+    /* background-color: blue; */
+    display: flex;
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+.n1 {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(7, 7, 111);
+}
+
+.n2 {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.n3 {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.n4 {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.n5 {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.name .n1:hover {
+    color: rgb(15, 15, 240);
+}
+
+.name .n2:hover {
+    color: rgb(15, 15, 240);
+}
+
+.name .n3:hover {
+    color: rgb(15, 15, 240);
+}
+
+.name .n4:hover {
+    color: rgb(15, 15, 240);
+}
+
+.name .n5:hover {
+    color: rgb(15, 15, 240);
+}
+
+.plan {
+    width: 100%;
+    height: 460px;
+    background-color: aquamarine;
+    background-image: url("./image/pexels-photo-371649.jpeg");
+    align-items: center;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 10px 10px 5px rgb(41, 39, 39); */
+}
+
+.head1 {
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+    color: #042b63;
+    opacity: 0.8;
+    padding: 30px;
+}
+
+.head2 {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    color: #d8dce2;
+    /* opacity: 0.8; */
+    padding-left: 30px;
+    padding-top: 0px;
+}
+
+.btn {
+
+    background-color: #991d1d;
+    /* Green */
+    border: none;
+    color: rgb(250, 251, 252);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 70px;
+    margin-top: 1px;
+}
+.btn:hover{
+    color: white;
+}
+
+.tips{
+    
+    margin-top: 10px;
+    align-items: center;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    background-image: url("./image/woman-hand-holding-camera-standing-top-rock-nature-travel-concept.jpg");
+}
+ .h1{
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+.main2{
+    display: flex;
+}
+.documents{
+    width: 40%;
+    height:600px ;
+    /* background-color: aqua; */
+}
+.documents{
+    font-size: 30px;
+    margin-left: 40px;
+    padding-left: 20px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 60px;
+    opacity: 0.7;
+
+}
+li:hover{
+    color: rgb(19, 5, 90);
+    /* opacity: 0.7; */
+}
+.appliances{
+    font-size: 30px;
+    margin-left: 40px;
+    padding-left: 160px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 60px;
+    opacity: 0.7;
+
+}
+.btn3{
+    background-color: #0abcf7;
+    border-radius: 50px;
+    /* Green */
+    border: none;
+    color: rgb(250, 251, 252);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 70px;
+    margin-top: 1px;
+}
+
+
+
+.social{
+    width: 100%;
+    height: 120px;
+    /* background-color:rgb(84, 118, 145); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;    
+ 
+    
+}
+
+.social h3{
+    font-size: 50px;
+}
+.fa-brands{
+    width: 50px;
+    height: 50px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-facebook {
+    background: #ffffff;
+    color: rgb(48, 94, 180);
+  }
+  .fa-twitter {
+    background: #ffffff;;
+    color: rgb(25, 154, 240);
+  }
+  .fa-instagram {
+    background:  #ffffff;;
+    color: rgb(206, 74, 131);
+  }
+  .fa-pinterest {
+    background:white;
+    color: rgb(251, 9, 9);
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+
+
+.main3{
+    width: 100%;
+    height: 840px;
+    /* background-color: #0abcf7; */
+    display: flex;
+}
+.part1{
+    width: 60%;
+    height: 740px;
+    /* background-color: coral; */
+    padding: 30px;
+}
+.part2{
+    width: 40%;
+    height: 740px;
+    /* background-color: rgb(80, 255, 83); */
+   
+}
+.part2{
+    border-radius: 20px;
+    align-items: center;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./image/pexels-photo-756024.jpeg");
+    box-shadow: 10px 10px 5px rgb(16, 16, 16);
+  margin-top: 40px;
+}
+.part1 h2 {
+    font-size: 40px;
+}
+.part1 p{
+    font-size: 20px;
+}
